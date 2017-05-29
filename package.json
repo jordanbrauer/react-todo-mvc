@@ -1,0 +1,11 @@
+{
+  "name": "react-demo",
+  "version": "0.0.1",
+  "description": "react, webpack demo application",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Jordan Brauer <jbrauer.inc@gmail.com>",
+  "license": "MIT"
+}
