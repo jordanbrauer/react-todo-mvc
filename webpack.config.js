@@ -12,10 +12,10 @@ module.exports = {
     loaders: [
       {
         test: /\.jsx?$/,
-        include: [ path.resolve(__dirname, 'app') ],
+        include: [ path.resolve(__dirname, 'src') ],
         loader: 'babel-loader',
         options: {
-          presets: [ 'react', 'es2015' ]
+          presets: [ 'es2015', 'react' ]
         }
       },
       {
